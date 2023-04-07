@@ -42,3 +42,19 @@ Jordan Walke created react. React is an open-source JavaScript library and is ow
 
 HTML (Hypertext Markup Language) is the standard markup language used for creating web pages. While
 JSX is a syntax extension for JavaScript that is used with the React library for building user interfaces.
+
+
+##
+
+Browsers cannot read JSX because it is not valid JavaScript. JSX is a syntax extension for JavaScript that is used with the React library to define and render user interfaces. It is essentially a way to write HTML-like code within JavaScript.
+
+JSX needs to be transpiled, or converted, into regular JavaScript code that browsers can understand. This is typically done using a build tool like Babel, which converts JSX syntax into regular JavaScript code.
+
+When the code is compiled, all the JSX elements are replaced with function calls to create React elements. These function calls are then executed by the browser's JavaScript engine, which creates and renders the actual HTML elements on the page.
+
+In summary, browsers cannot read JSX directly because it is not valid JavaScript, but it can be transpiled into JavaScript using tools like Babel, which allows it to be executed and rendered by the browser's JavaScript engine.
+
+
+
+
+
