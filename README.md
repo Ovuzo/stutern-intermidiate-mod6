@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# List five significant features of React
 
-### `npm test`
+Declarative: React is declarative, which means that developers can describe what the UI should look like, and React will take care of the underlying details of how to update the UI when the state changes. This makes it easier to reason about the code and helps to prevent bugs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Component-based: React is built around the idea of components, which are reusable pieces of UI that can be composed together to build complex interfaces. Components are modular and encapsulated, making it easier to reason about their behavior and reuse them throughout an application.
 
-### `npm run build`
+Virtual DOM: React uses a virtual DOM (Document Object Model) to efficiently update the UI. The virtual DOM is a lightweight representation of the actual DOM that React uses to keep track of changes. When the state of a component changes, React updates the virtual DOM and then efficiently updates the actual DOM by only making the necessary changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One-way data flow: React uses a one-way data flow, which means that data flows in a single direction from the parent component to the child components. This makes it easier to reason about how data is changing and helps to prevent unexpected changes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JSX: React uses JSX, which is a syntax extension that allows developers to write HTML-like code in their JavaScript files. This makes it easier to reason about the structure of the UI and helps to prevent bugs that can arise from mixing HTML and JavaScript.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hooks: React Hooks are functions that allow developers to use state and other React features in functional components, which makes it easier to write and reason about code. Hooks provide a way to reuse logic between components, without the need for class components or higher-order components.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## List five major advantages of React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Reusable Components: React's component-based architecture allows developers to create reusable UI components that can be used throughout the application. This results in more efficient development and easier maintenance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Virtual DOM: React uses a virtual DOM to keep track of changes to the UI. This allows it to update the actual DOM more efficiently, resulting in faster rendering times and improved performance.
 
-## Learn More
+One-way Data Binding: React uses one-way data binding, which simplifies the process of managing state and makes it easier to debug code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+SEO-Friendly: React can be used for server-side rendering, which improves the SEO of web applications by generating HTML on the server before sending it to the client.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Large and Active Community: React has a large and active community of developers, which means there are plenty of resources and tools available to help developers get up to speed and troubleshoot issues.
 
-### Code Splitting
+## Question 4
+## The Software Engineer who created React is Jordan Walke. React is an open-source JavaScript library and is owned by Facebook.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Jordan Walke created react. React is an open-source JavaScript library and is owned by Facebook.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Question 5
+## What are the notable differences between HTML & JSX? Give at least 3 of them
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+HTML (Hypertext Markup Language) is the standard markup language used for creating web pages. While
+JSX is a syntax extension for JavaScript that is used with the React library for building user interfaces.
